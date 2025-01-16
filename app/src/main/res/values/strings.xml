@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">calorimeter5</string>
+    <string name="profile_photo">Profile Photo</string>
+
+    <string name="food_image">Food Image</string>
+    <string name="delete_exercise">Delete Exercise</string>
+
+    <!-- Egzersiz Sıklığı Dizisi -->
+
+</resources>

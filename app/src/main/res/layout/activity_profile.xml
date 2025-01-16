@@ -1,0 +1,163 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="#FFCC80">
+
+        <!-- Profil Fotoğrafı -->
+        <ImageView
+            android:id="@+id/ivProfilePhoto"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_person_placeholder"
+            android:contentDescription="@string/profile_photo"
+            android:background="@drawable/bg_circle"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnChoosePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Choose Photo"
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="#FF7043"
+            android:textColor="#FFFFFF" />
+
+        <!-- Kullanıcı Adı -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Yaş -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Age:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your age"
+            android:textSize="16sp"
+            android:inputType="number"
+            android:padding="12dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Kilo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Weight (kg):"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etWeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your weight"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Boy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Height (cm):"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etHeight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your height"
+            android:textSize="16sp"
+            android:inputType="numberDecimal"
+            android:padding="12dp"
+            android:background="@drawable/bg_edittext"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Egzersiz Sıklığı -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise Frequency:"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/spExerciseFrequency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/exercise_frequencies"
+            android:padding="10dp" />
+
+
+        <!-- Günlük Kalori Hesaplama -->
+        <Button
+            android:id="@+id/btnCalculateCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculate Daily Calories"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#FF7043"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvDailyCalories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your daily calorie intake will appear here."
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Kaydet Butonu -->
+        <Button
+            android:id="@+id/btnSaveProfile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Profile"
+            android:backgroundTint="#FF7043"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

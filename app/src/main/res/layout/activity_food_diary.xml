@@ -1,0 +1,67 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFCC80">
+
+    <!-- Yemek adı -->
+    <EditText
+        android:id="@+id/etFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter food name"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:background="#FFFFFF"/>
+
+    <!-- Kalori miktarı -->
+    <EditText
+        android:id="@+id/etCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter calories"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:inputType="numberDecimal"
+        android:background="#FFFFFF"/>
+
+    <!-- Gram miktarı -->
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter weight (grams)"
+        android:layout_marginBottom="8dp"
+        android:padding="8dp"
+        android:inputType="number"
+        android:background="#FFFFFF"/>
+
+    <!-- Fotoğraf linki -->
+    <EditText
+        android:id="@+id/etPhotoLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter photo link"
+        android:layout_marginBottom="16dp"
+        android:padding="8dp"
+        android:background="#FFFFFF"/>
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/btnSaveFood"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Food"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF7043"/>
+
+    <!-- Yemek Listesi -->
+    <ListView
+        android:id="@+id/lvFoodDiary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>

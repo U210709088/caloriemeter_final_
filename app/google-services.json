@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "477122124772",
+    "project_id": "calorimeter5",
+    "storage_bucket": "calorimeter5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477122124772:android:2c274ac95b1a2ede4745f1",
+        "android_client_info": {
+          "package_name": "com.example.calorimeter5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-WFbIhtDAg0_RYPEBbsX2jtF0jtWuY68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string-array name="exercise_frequencies">
+        <item>Hareketsiz</item>
+        <item>Hafif</item>
+        <item>Orta</item>
+        <item>Çok Aktif</item>
+    </string-array>
+</resources>

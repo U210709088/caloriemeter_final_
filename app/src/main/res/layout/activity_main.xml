@@ -1,0 +1,81 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FFCC80">
+
+    <!-- Uygulama Başlığı -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CalorieMeter"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#D84315"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Kullanıcı İkonu -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_user"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- E-Posta Giriş Alanı -->
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-posta"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="#FFFFFF""
+        android:textColor="#000000"
+        android:textColorHint="#616161"/>
+
+    <!-- Şifre Giriş Alanı -->
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="#FFFFFF""
+        android:textColor="#000000"
+        android:textColorHint="#616161"
+        android:layout_marginTop="12dp"/>
+
+    <!-- Giriş Yap Butonu -->
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF7043"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+        android:elevation="4dp"/>
+
+    <!-- Kayıt Ol Butonu -->
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kayıt Ol"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF7043"
+        android:layout_marginTop="12dp"
+        android:padding="12dp"
+        android:elevation="4dp"/>
+
+</LinearLayout>
